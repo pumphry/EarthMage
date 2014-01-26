@@ -1,6 +1,0 @@
-//Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^earthmage.alexjmurphy.com/app/index.html[nc]
-RewriteRule ^(.*)$ http://www.earthmage.alexjmurphy.com/app/index.html/$1 [r=301,nc]
- 
